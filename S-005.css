@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  padding-left : 15px;
+}
+ 
+.Note {
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    color: #ff7d6e;
+    background: #ffebe9;
+    border-top: solid 10px #ff7d6e;
+}
+.Note p {
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+        width : 1000px;
+        margin : 50px auto;
+        padding : 10px 0;
+        background : #FFF;
+        border : 1px solid #cccccc;
+        border-radius : 7px;
+        box-shadow : 0 0 7px rgba( 0, 0, 0, 0.2 );
+}
+
+.number {
+  margin-top: 45px;
+  margin-left : 50px;
+}
+
+html {
+  background-color: #f5f6f7;
+}
+
+.cost {
+margin-left:55px;
+}
+
+.money {
+  margin:120px 0 0 55px;
+  padding-bottom:70px ;
+}
