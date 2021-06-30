@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+html{
+    background-color: #f5f6f7;
+}
+body{
+
+    width : 1000px;
+    height: 550px;
+    margin : 35px auto;
+    background : #FFF;
+    border : 1px solid #cccccc;
+    border-radius : 7px;
+    box-shadow : 0 0 7px rgba( 0, 0, 0, 0.2 );
+}
+.question {
+    margin-top: 60px;
+    margin-left:350px;
+    text-align: left;
+}
+
+.text {
+    margin-top: 20px;
+    padding-top : 5px;
+    text-align: center;
+}
+
+.back button {
+    /* ブラウザ特有のスタイルを無効に */
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+  
+    /* 整える */
+    margin: 1em 0; /* 前後の隙間 */
+    padding: 0.6em 1em; /* 塗りの余白 */
+    font-size: 1em; /* フォントサイズ */
+    background-color: #939399; /* 背景色 */
+    color: #FFF; /* テキストカラー */
+    cursor: pointer; /* カーソルを指マークに */
+    border-radius: 3px; /* 角の丸み */
+    border: 0; /* 枠線を消す */
+    transition: 0.3s; /* ホバーの変化を滑らかに */
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.send button {
+  
+    /* 整える */
+    margin: 1em 0; /* 前後の隙間 */
+    padding: 0.6em 1em; /* 塗りの余白 */
+    font-size: 1em; /* フォントサイズ */
+    background-color: #0067b6; /* 背景色 */
+    color: #FFF; /* テキストカラー */
+    cursor: pointer; /* カーソルを指マークに */
+    border-radius: 3px; /* 角の丸み */
+    border: 0; /* 枠線を消す */
+    transition: 0.3s; /* ホバーの変化を滑らかに */
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* ホバー時（カーソルをのせた時）の見た目 */
+button:hover {
+    background-color: #064fda; /* 背景色 */
+}
+
+.back {
+    position:absolute;
+    left:270px;
+}
+
+.send {
+    position:absolute;
+    left:1030px;
+}
