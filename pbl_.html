@@ -1,0 +1,204 @@
+<html>
+  <head>
+    <link rel ="stylesheet" href="PBL_.css">
+    <link rel ="stylesheet" href="PBL_.css">
+  </head>
+  <body>
+    <form id="contant-form" class="form" name="contact-form">
+        <h1 class="form__headline">参加者フォーム</h1>
+        <div class="form__description">
+          <p>必要事項をご入力のうえ、確認画面へお進みください。</p>
+          <p><span class="form__required-label">必須</span>の項目はお手数ですが必ず入力をお願いいたします。</p>
+        </div>
+
+        <div class="form__group">
+            <p class="form__group-header">
+              <label class="form__group-label" for="address-level2">参加ナンバー入力</label>
+            </p>
+            <div class="form__group-content">
+              <div class="form__text-input -wide">
+                <p class="text-input">
+                  <input id="address-level2" class="text-input__body" type="text" name="address-level2" autocomplete="address-level2" title="出身学校の入力は必須です" required aria-required="true">
+                  <span class="text-input__validator"></span>
+                </p>
+              </div>
+              <p class="form__validation" data-validation="address-level2" role="alert" aria-live="assertive"></p>
+            </div>
+          </div>
+
+
+        <fieldset class="form__group">
+          <legend class="form__group-header">
+            <span class="form__group-label">姓名<strong class="form__required-label">必須</strong></span>
+          </legend>
+          <div class="form__group-content">
+            <div class="form__name">
+              <div class="form__text-input">
+                <label class="visually-hidden" for="family-name">姓</label>
+                <p class="text-input">
+                  <input id="family-name" class="text-input__body" type="text" name="family-name" autocomplete="family-name" placeholder="姓" title="姓の入力は必須です" required aria-required="true">
+                  <span class="text-input__validator"></span>
+                </p>
+              </div>
+              <div class="form__text-input">
+                <label class="visually-hidden" for="given-name">名</label>
+                <p class="text-input">
+                  <input id="given-name" class="text-input__body" type="text" name="given-name" autocomplete="given-name" placeholder="名" title="名の入力は必須です" required aria-required="true">
+                  <span class="text-input__validator"></span>
+                </p>
+              </div>
+            </div>
+            <p class="form__validation" data-validation="family-name" role="alert" aria-live="assertive"></p>
+            <p class="form__validation" data-validation="given-name" role="alert" aria-live="assertive"></p>
+          </div>
+        </fieldset>
+        <fieldset class="form__group">
+          <legend class="form__group-header">
+            <span class="form__group-label">姓名(フリガナ)<strong class="form__required-label">必須</strong></span>
+          </legend>
+          <div class="form__group-content">
+            <div class="form__name">
+              <div class="form__text-input">
+                <label class="visually-hidden" for="family-name-furigana">セイ</label>
+                <p class="text-input">
+                  <input id="family-name-furigana" class="text-input__body" type="text" name="family-name-furigana" placeholder="セイ" pattern="(?=.*?[\u30A1-\u30FC])[\u30A1-\u30FC\s]*" title="姓のフリガナは全角カタカナで記入してください" required aria-required="true">
+                  <span class="text-input__validator"></span>
+                </p>
+              </div>
+              <div class="form__text-input">
+                <label class="visually-hidden" for="given-name-furigana">メイ</label>
+                <p class="text-input">
+                  <input id="given-name-furigana" class="text-input__body" type="text" name="given-name-furigana" placeholder="メイ" pattern="(?=.*?[\u30A1-\u30FC])[\u30A1-\u30FC\s]*" title="名のフリガナは全角カタカナで記入してください" required aria-required="true">
+                  <span class="text-input__validator"></span>
+                </p>
+              </div>
+            </div>
+            <p class="form__notion">フリガナは全角カタカナで記入してください</p>
+            <p class="form__validation" data-validation="family-name-furigana" role="alert" aria-live="assertive"></p>
+            <p class="form__validation" data-validation="given-name-furigana" role="alert" aria-live="assertive"></p>
+          </div>
+        </fieldset>
+          <div class="form__group">
+            <p class="form__group-header">
+              <label class="form__group-label" for="datetime">生年月日</label>
+            </p>
+            <div class="form__group-content">
+              <div class="form__text-input">
+                <p class="text-input">
+                  <input id="datetime" class="text-input__body" type="date" name="datetime" title="生年月日の入力は必須です">
+                  <span class="text-input__validator"></span>
+                </p>
+              </div>
+         
+            <p class="form__validation" data-validation="address-level1" role="alert" aria-live="assertive"></p>
+          </div>
+        </div>
+        <div class="form__group">
+          <p class="form__group-header">
+            <label class="form__group-label" for="address-level2">出身学校<strong class="form__required-label">必須</strong></label>
+          </p>
+          <div class="form__group-content">
+            <div class="form__text-input -wide">
+              <p class="text-input">
+                <input id="address-level2" class="text-input__body" type="text" name="address-level2" autocomplete="address-level2" title="出身学校の入力は必須です" required aria-required="true">
+                <span class="text-input__validator"></span>
+              </p>
+            </div>
+            <p class="form__validation" data-validation="address-level2" role="alert" aria-live="assertive"></p>
+          </div>
+        </div>
+
+        <div class="form__group">
+          <p class="form__group-header">
+            <label class="form__group-label" for="address-level2">学科・学部・専攻<strong class="form__required-label">必須</strong></label>
+          </p>
+          <div class="form__group-content">
+            <div class="form__text-input -wide">
+              <p class="text-input">
+                <input id="address-level2" class="text-input__body" type="text" name="address-level2" autocomplete="address-level2" title="学科・学部・専攻の入力は必須です" required aria-required="true">
+                <span class="text-input__validator"></span>
+              </p>
+            </div>
+            <p class="form__validation" data-validation="address-level2" role="alert" aria-live="assertive"></p>
+          </div>
+        </div>
+
+        <div class="form__group">
+          <p class="form__group-header">
+            <label class="form__group-label" for="address-level1">参加学科<strong class="form__required-label">必須</strong></label>
+          </p>
+          <div class="form__group-content">
+            <div class="form__select-box">
+              <div class="select-box">
+                <select id="address-level1" class="select-box__body" name="address-level1" title="参加学科は必ず指定してください" required aria-required="true">
+                  <option value="" disabled selected hidden>選択してください</option>
+                  <option value="医療福祉学科">医療福祉学科</option>
+                  <option value="公務員学科">公務員学科</option>
+                  <option value="診療情報学科">診療情報学科</option>
+                  <option value="公務員速習学科">公務員速習学科</option>
+                  <option value="ホテル・ブライダル学科">ホテル・ブライダル学科</option>
+                  <option value="保育学科">保育学科</option>
+                  <option value="経営アシスト学科">経営アシスト学科</option>
+                  <option value="情報スペシャリスト学科">情報スペシャリスト学科</option>
+                  <option value="情報システム学科">情報システム学科</option>
+                  <option value="CGデザイン学科">CGデザイン学科</option>
+                  <option value="ゲームクリエイター学科">ゲームクリエイター学科</option>
+                  <option value="ネット動画クリエイター学科">ネット動画クリエイター学科</option>
+                  <option value="ゲームプログラマー学科">ゲームプログラマー学科</option>
+                  <option value="データマーケター学科">データマーケター学科</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="form__group">
+          <p class="form__group-header">
+            <label class="form__group-label" for="address-level1">どこから来たか<strong class="form__required-label">必須</strong></label>
+          </p>
+          <div class="form__group-content">
+            <div class="form__select-box">
+              <div class="select-box">
+                <input class="kennai" id="taget" type="radio" name="q1" value="はい"> 県内
+                <select id="address-level1" class="select-box__body" name="address-level1" title="来た場所を指定してください" required aria-required="true">
+                  <option value="" disabled selected hidden>選択してください</option>
+                  <option value="">岡山市</option>
+                  <option value="">倉敷市</option>
+                  <option value="">玉野市</option>
+                  <option value="">笠岡市</option>
+                  <option value="">井原市</option>
+                  <option value="">総社市</option>
+                  <option value="">高梁市</option>
+                  <option value="">備前市</option>
+                  <option value="">瀬戸内市</option>
+                  <option value="">赤磐市</option>
+                  <option value="">浅口市</option>
+                  <option value="">和気町</option>
+                  <option value="">早島町</option>
+                  <option value="">里庄町</option>
+                  <option value="">矢掛町</option>
+                  <option value="">久米南町</option> 
+                  <option value="">美咲町</option>
+                  <option value="">吉備中央町</option>
+                </select>
+                <div class="form__group-content">
+                  <div class="form__select-box">
+                    <input class="kengai" type="radio" name="q1" value="いいえ"> 県外
+                    <input type="text" name="othertext" id="textforscb3" value="">  
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="form__submit">
+          <p class="form__validation" data-validation="submit" role="alert" aria-live="assertive"></p>
+          <button class="button" type="submit">送信する</button>
+        </div>
+
+      </form>
+
+    <script src = "PBL.js"></script>
+    </body>
+  </html>
