@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<title>県外アンケート</title>
+<!--<meta name="robots" content="noindex,nofollow" />-->
+
+<style>
+	
+	
+body {
+	background-color: #f5f6f7;
+	
+}
+</style>
+
+<!--　フォームの方を作成 -->
+<link rel="stylesheet" href="css/s001.css" />
+</head>
+<body>	
+
+
+<form required  id="mail_form" >
+	<dl>
+		
+		
+			<dt>どこから来られましたか？<span></span></dt>
+	<div>
+		<dd>
+			<ul>
+				<li><label><input type="radio" class="gender" name="gender" value="男性"/>岡山県内</label></li>
+				<li><label><input type="radio" class="gender" name="gender" value="女性"/>県外</label></li>
+			</ul>
+		</dd>
+	</div>
+		
+		<dt><nobr>ここ2週間県外の方と接触しましたか？</nobr></dt>
+		<dd>
+			<ul>
+				<li><label><input type="radio"  class="target" name="target" value="男性"/>した</label></li>
+				<li><label><input type="radio"  class="target" name="target" value="女性"/>していない</label></li>
+			</ul>
+		</dd>
+		
+		
+		<dt>ご自身の体調などで懸念事項があればお書きください</dt>
+		<dd><textarea id="message" name="message" cols="40" rows="5"></textarea></dd>
+	</dl>
+	
+	<!-- 送信ボタン-->
+	<div class="button-area"><input type="button" onclick="location.href='./s002.html'" value="入力内容を確認して送信"></div>
+	
+		
+</form>
+	
+
+</body>
+</html>
