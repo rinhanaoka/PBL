@@ -31,10 +31,7 @@ html {
 
 body {
   background: var(--white-color-primary);
-  /*color: var(--base-color);
-  /*font-family: "Helvetica Neue", "Segoe UI", "Hiragino Sans",
- "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-  font-size: 1em;*/
+ 
   line-height: 1.5;
 }
 
@@ -927,9 +924,7 @@ body {
   display: none;
 }
 
-/**
-   * ?{?^????R???|?[?l???g????B
-   */
+
 .button {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -951,21 +946,6 @@ body {
   transition: background-color 0.3s;
 }
 
-.button.-small {
-  padding: 1em 1.5em;
-}
-
-@media screen and (min-width: 0) {
-  .button.-small {
-    font-size: 1em;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .button.-small {
-    font-size: 0.75em;
-  }
-}
 
 .button[aria-disabled="true"] {
   cursor: not-allowed;
@@ -996,10 +976,6 @@ body {
   width: 1px !important;
 }
 
-.js-focus-visible :focus:not(.focus-visible) {
-  outline: 0;
-}
-
-::-webkit-calendar-picker-indicator {
+  ::-webkit-calendar-picker-indicator {
   cursor: pointer;
 }
