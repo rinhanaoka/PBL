@@ -1,4 +1,8 @@
 @charset "utf-8";
+/*送信ボタンを真ん中にしている*/
+.button-area {
+	text-align: center; 
+  }
 
 
 div#thanks * {
@@ -45,6 +49,24 @@ div#thanks dl {
 div#thanks dl dt {
 	margin-top: 2em;
 }
+
+form#mail_form input[type="button"] {
+	padding: 7px 20px;
+	border: 0px;
+	border-radius: 3px;
+	background-color: #0067b6; /* 背景色 */
+	font-size: 100%;
+	color: #ffffff;
+	font-family: inherit;
+	-webkit-appearance: none;
+}
+
+
+form#mail_form input[type="button"]:hover {
+	cursor: pointer;
+	
+}
+
 
 
 
